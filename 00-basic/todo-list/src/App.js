@@ -13,13 +13,19 @@ class App extends Component {
     ];
   }
   
+  onItemClicked() {
+
+  }
   render() {
-    return <div className="App">
+    const { todoItems } = this.state;
+    if (todoItems.length) {
+      return <div className="App">
         {this.todoItems.length > 0 && this.todoItems.map((item, index) => (
-          < TodoItem key={index} item={item} />
+          < TodoItem key={index} item={item} onClick={this.onItemClicked} />
         ))}
         { this.todoItems.length === 0 && 'Nothing here!'}
       </div>
+    }
   }
 }
 
