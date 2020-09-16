@@ -1,16 +1,16 @@
-# React JS
+# React JS - https://reactjs.org/
 
-## 1. Kiến thức cần có
-    - JS cơ bản
+## 1. Basic knowledge
+    - JS basic
     - HTML
     - CSS
-    - JS nâng cao
+    - JS advance
 
-## 2. Môi trường dev
+## 2. Dev environment
     - Visual Studio Code
     - NodeJS
 
-## 3. Học xong làm được gì
-    - Có thể dùng React để code Front-End cho bất cứ web app nào.
-    - Có thể tự học React Native
-    - Tự học được các SPA Framework khác như Angular, Vue
+## 3. What comes after
+    - Using React to create any Web app.
+    - Can learn React Native by self
+    - Can learn by self other SPA Framework like AngularJS, VueJS
